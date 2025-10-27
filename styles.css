@@ -1,0 +1,156 @@
+/* for futur use for multiple pages being formatted the smae way to save time */
+
+/* <!--Link--> */
+    .a1 {
+        background-color: #3498DB;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        z-index: 1;
+        white-space: nowrap;
+    }
+    .a1:hover, .a1:focus {
+        background-color: #2980B9;
+    }
+    .a2:link {
+        color: blue;
+        background-color: transparent;
+        text-decoration: underline;
+        z-index: 1;
+    }
+
+    .a2:visited {
+        color: blue;
+        background-color: transparent;
+        text-decoration: none;
+    } 
+
+    .a2:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    .a2:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    .a3 {
+        background-color: rgba(52 , 152 , 219, 0.7);
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        z-index: 1;
+        white-space: nowrap;
+    }
+    .a3:hover, .a1:focus {
+        background-color: #2980B9;
+    }
+
+
+    /* <!--Drop down button--> */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  z-index: 1;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: rgba(240, 248, 255); ;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: Arial, sans-serif;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  font-family: Arial, sans-serif;
+}
+.buttons-in-row {
+  display: flex;    
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+.drop {}
+
+/* Header */
+header {
+  position: sticky;
+  top:0;
+  background-color:#0b2041; 
+  color:rgb(240, 248, 255); 
+  text-align:center; 
+  background-image: url('./Images/banner.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 5px;
+  background-size: 300px;
+  font-size:200%; 
+  width:100%;
+  z-index: 999;
+  padding: 0%;
+}
+
+/* Footer */
+footer {
+  bottom: 0;
+  background-color:#0b2041; 
+  color:aliceblue; 
+  text-align:center; 
+  background-image: url('./Images/NewFooter.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  font-size:200%; 
+  width:100%;
+  z-index: 998;
+  padding: 10;
+}
+
+
+.div1 {
+    margin: 10px;
+    border-left: 6px solid #0b2041;
+    padding: 20px;
+}
+
+p {
+    padding:10px;
+}
+
