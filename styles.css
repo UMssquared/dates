@@ -171,4 +171,9 @@ p {
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
+  iframe{
+    padding-left: 10%;
+    width: 80%; 
+    height: 50%;
+  }
 }
