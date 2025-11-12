@@ -159,3 +159,16 @@ p {
     padding:10px;
 }
 
+
+/* Slideshow container */
+.slideshow-container {
+  box-sizing: border-box;
+  display: flex;
+  vertical-align: middle;
+  max-width: 1000px;
+  position: relative;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+}
